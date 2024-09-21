@@ -1,0 +1,18 @@
+@media only screen and (min-width: 40rem) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .card {
+    margin: 1rem 1vw;
+    box-shadow: 1px 1px 10px black;
+  }
+
+  nav ul {
+    flex-direction: row;
+  }
+
+  nav ul li {
+    flex: 1;
+  }
+}

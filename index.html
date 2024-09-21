@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[Bitner Torres] - WDD 230 - Web Frontend Development</title>
+    <meta
+      name="description"
+      content="This is Bitner Torres course assignment portal for WDD 230 - Web Frontend Development"
+    />
+    <meta name="author" content="Bitner Torres" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="images/profile.jpg"
+        alt="Bitner Torres Profile"
+        width="75"
+        height="100"
+      />
+      <span>Bitner Torres</span>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.html">Chamber</a></li>
+        <li><a href="#">Site Plan</a></li>
+        <li><a href="#">Form</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>WDD 230: Web Frontend Development</h1>
+      <hr />
+      <section class="card-container">
+        <section class="card">
+          <h2>Learning Activities</h2>
+          <ul>
+            <li>Week 01:<a href="#"></a></li>
+            <li>Week 02:<a href="#"></a></li>
+            <li>Week 03:<a href="#"></a></li>
+            <li>Week 04:<a href="#"></a></li>
+            <li>Week 05:<a href="#"></a></li>
+            <li>Week 06:<a href="#"></a></li>
+          </ul>
+        </section>
+        <section class="card">
+          <h2>Information</h2>
+          <p><span id="weather">Weather</span></p>
+          <p><span id="pageVisits">Page Visits :</span></p>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <p>© <span id="currentYear"></span> ☽ Bitner Torres ☾ USA</p>
+      <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+  </body>
+</html>
