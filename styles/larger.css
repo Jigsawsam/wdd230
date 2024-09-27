@@ -1,4 +1,9 @@
 @media only screen and (min-width: 40rem) {
+  
+  header span {
+    font-size: 2rem;
+  }
+
   .card-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
