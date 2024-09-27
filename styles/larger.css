@@ -8,11 +8,16 @@
     box-shadow: 1px 1px 10px black;
   }
 
-  nav ul {
+  nav ul, nav.open ul {
     flex-direction: row;
+    display: flex;
   }
 
   nav ul li {
     flex: 1;
+  }
+  
+  #myButton {
+    display: none;
   }
 }

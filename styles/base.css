@@ -10,6 +10,10 @@ body {
   font-weight: 400;
 }
 
+body.dark{
+  background-color: #1c1c1c;
+}
+
 /* Header */
 header {
   background-color: #05192d;
@@ -29,11 +33,34 @@ header span {
   vertical-align: middle;
 }
 
+#darkButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 30px;
+  cursor: pointer;
+  background-color: #50759a;
+  border-radius: 15px;
+}
+
 /* Navigation */
 nav {
   background-color: #62521c;
-  display: flex;
-  justify-content: center;
+}
+
+#myButton::before {
+  content: "\2630";
+}
+
+#myButton {
+  font-size: 40px;
+  background: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-align: left;
+  padding-left: 15px;
+  padding-bottom: 7px;
 }
 
 nav ul {
@@ -41,6 +68,7 @@ nav ul {
   display: flex;
   width: 100%;
   flex-direction: column;
+  display: none;
 }
 
 nav ul li {
@@ -68,12 +96,21 @@ nav ul li a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+#myButton.open::before{
+  content: 'x';
+}
+
+nav.open ul {
+  display: block;
+}
+
 /* Main Content Layout */
 main {
   max-width: 1000px;
-  margin: 40px auto;
+  margin: auto;
   text-align: center;
   font-weight: 300;
+  padding: 20px;
 }
 
 main h1 {
@@ -91,6 +128,9 @@ hr {
   border-top: 1px solid #05192d;
 }
 
+main.dark h1 {
+  color: white;
+}
 /* Cards Layout */
 .card {
   border: 1px solid rgba(107, 107, 107, 0.5);
@@ -121,10 +161,44 @@ hr {
   text-align: left;
 }
 
+.card ul li a {
+  text-decoration: none;
+}
+
+.card ul li a:hover {
+  color: 	#00008B; 
+  text-decoration: underline;
+}
+
 .card p {
   font-size: 1.1rem;
   padding: 10px;
   margin: 10px;
+}
+
+.card.dark {
+  background-color: #1c1c1c;
+}
+
+.card.dark ul{
+  color: rgb(255, 255, 255);
+}
+
+.card.dark p{
+  color: rgb(255, 255, 255);
+}
+
+.card.dark ul li a {
+  color: #1E90FF;
+}
+
+.card.dark ul li a:hover {
+  color: #87CEFA; 
+  text-decoration: underline;
+}
+
+body.dark a:visited {
+  color: #A9A9A9; 
 }
 
 /* Footer */
