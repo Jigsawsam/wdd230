@@ -1,19 +1,19 @@
 @media only screen and (min-width: 40rem) {
-  
     header span {
-      font-size: 2rem;
+        font-size: 2rem;
     }
-  
+
     nav ul, nav.open ul {
-      flex-direction: row;
-      display: flex;
+        flex-direction: row;
+        display: flex;
     }
-  
+
     nav ul li {
-      flex: 1;
+        flex: 1;
     }
 
     #navButton {
         display: none;
-      }
-  }
+    }
+
+}
