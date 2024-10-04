@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <meta name="description" content="Sample of responsive images">
+    <meta name="author" content="Bitner Torres">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/lai-temple-small.webp" media="(max-width: 500px)">
+                <source srcset="images/lai-temple-medium.webp" media="(min-width: 1000px)">
+                <img src="images/laie-temple-large.webp" alt="laie temple hawaii" width="1500" height="750">
+            </picture>
+        </div>
+    </main>
+
+</body>
+
+</html>
