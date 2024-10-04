@@ -27,13 +27,14 @@ body {
 
 .hero span {
     position: absolute;
-    top: 5px;
+    top: 40%;
     right: 0;
     left: 0;
     padding: 10px;
-    background-color: rgba(225, 225, 225, .25);
+    background-color: rgba(0, 0, 0, 0.25);
     font-size: 13px;
     text-align: center;   
+    color: aliceblue;
 }
 
 /* Header */
