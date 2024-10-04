@@ -207,3 +207,8 @@ footer {
   .card ul {
     list-style: none;
   }
+
+  .phone-link {
+    text-decoration: none;
+  }
+  
