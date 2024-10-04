@@ -126,9 +126,6 @@ nav.open ul {
   border-radius: 50px;
 	box-shadow: 0 0 1rem #fff;
 	opacity: 0.75;
-}
-
-.hero span p {
   color: rgb(255, 103, 103);
 	font-weight: 400;
 	font-size: 10px;
