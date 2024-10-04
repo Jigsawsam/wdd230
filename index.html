@@ -25,7 +25,7 @@
 
 <body>
   <header>
-    <img src="images/profile.jpg" alt="Bitner Torres Profile" width="75" height="100">
+    <img src="images/profile.webp" alt="Bitner Torres Profile" width="75" height="100">
     <span>Bitner Torres</span>
     <img src="images/dark.svg" alt="Dark mode" id="darkButton">
   </header>
@@ -39,6 +39,16 @@
     </ul>
   </nav>
   <main>
+      <div class="hero">
+        <picture>
+          <source srcset="images/laie-temple-small.webp" media="(max-width: 400px)">
+          <source srcset="images/laie-temple-medium.webp" media="(min-width: 960px)">
+          <img src="images/laie-temple-large.webp" alt="laie temple hawaii hero image" width="1500" height="750">
+        </picture>
+        <div">
+          <span><p>Laie Hawaii Temple</p></span>
+        </div>
+      </div>
     <h1>WDD 230: Web Frontend Development</h1>
     <hr>
     <section class="card-container">
@@ -46,8 +56,8 @@
         <h2>Learning Activities</h2>
         <ul>
           <li>Week 01: <a href="week01/holygrail.html">Layout</a> | <a href="week01/media-query.html">Media Query</a> | <a href="#">JS Pen</a></li>
-          <li>Week 02: <a href="week02/design.html">Design</a> | <a href="https://codepen.io/Bitner-Torres/pen/WNVbwxg">Hamburger</a> | <a href="week02/bom.html">DOM Manipulation</a></li>
-          <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazy load</a> | <a href="week03/responsive-images.html">responsive images</a> | <a href="week03/bom.html">API Local storage</a></li>
+          <li>Week 02: <a href="week02/design.html">Design</a> | <a href="https://codepen.io/Bitner-Torres/pen/WNVbwxg">Hamburger</a> | <a href="week02/bom.html">BOM</a></li>
+          <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazy load</a> | <a href="week03/responsive-images.html">srcset</a> | <a href="week03/bom.html">Local storage</a></li>
           <li>Week 04: <a href="#"></a></li>
           <li>Week 05: <a href="#"></a></li>
           <li>Week 06: <a href="#"></a></li>
@@ -60,6 +70,7 @@
       </section>
     </section>
   </main>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d749.6485096991445!2d-117.4185991!3d47.6613417!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549e18f55ad56f23%3A0x83a1d666beb94ee6!2sThe%20Great%20Northern%20Clocktower!5e1!3m2!1sen!2sus!4v1728058636716!5m2!1sen!2sus" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   <footer>
     <p>© <span id="currentYear"></span> ☽ Bitner Torres ☾ USA</p>
     <p>Last modified: <span id="lastModified"></span></p>

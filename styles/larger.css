@@ -1,5 +1,5 @@
-@media only screen and (min-width: 40rem) {
-  
+@media only screen and (min-width: 35rem) {
+
   header span {
     font-size: 2rem;
   }
@@ -8,12 +8,14 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
+
   .card {
     margin: 1rem 1vw;
     box-shadow: 1px 1px 10px black;
   }
 
-  nav ul, nav.open ul {
+  nav ul,
+  nav.open ul {
     flex-direction: row;
     display: flex;
   }
@@ -21,8 +23,44 @@
   nav ul li {
     flex: 1;
   }
-  
+
   #myButton {
     display: none;
   }
+
+  main {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .hero span {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 10px;
+  }
+
+  .hero span p {
+    font-size: 20px;
+  }
+
+  iframe {
+    box-shadow: 1px 1px 10px black;
+  }
+}
+
+@media only screen and (min-width: 60rem) {
+  main {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+}
+
+@media only screen and (min-width: 80rem) {
+  main {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
 }
