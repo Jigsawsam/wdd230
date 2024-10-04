@@ -1,5 +1,5 @@
 // Hamburger
-const hamburgerElement = document.querySelector('#myButton');
+const hamburgerElement = document.querySelector('#hamburger');
 const navElement = document.querySelector('nav');
 
 hamburgerElement.addEventListener('click', () =>{
