@@ -31,4 +31,16 @@
     .hero span{
         font-size: 1.5rem;
     }
+
+    .grid-container {
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .image-gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .image-gallery :hover{
+        box-shadow: 0 0 50px rgb(0, 0, 49);
+    }
 }

@@ -39,57 +39,68 @@
             <li><a href="#">Join</a></li>
         </ul>
     </nav>
-    <main>
-        <div class="hero">
-            <img src="images/spokane.webp" alt="City of Spokane WA" width="1000" height="500">
-            <div class="hero-text">
-                <span>Empowering Spokane: Where Business Thrives!</span>
-            </div>
-        </div>
-        <div class="middle-section">
-            <section class="card community">
-                <h2>Community Info</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
+    <main class="grid-container">
+        <!-- Sidebar Content -->
+        <aside class="sidebar">
+            <section class="card">
+                <h2>Your Last Visit</h2>
+                <p><span id="visits"></span><span class="visits"></span></p>
             </section>
+            <section class="card">
+                <h2>Upcoming Events</h2>
+                <ul class="upevents">
+                    <li>Octoberfest - Oct 12, 2024</li>
+                    <li>Farmers Market - Oct 15, 2024</li>
+                    <li>Holiday Parade - Dec 5, 2024</li>
+                </ul>
+            </section>
+            <section class="card">
+                <h2>City Demographics</h2>
+                <p>Population: 230,000</p>
+                <p>Median Age: 35.7</p>
+                <p>Median Household Income: $52,000</p>
+            </section>
+        </aside>
 
-            <section class="card action">
-                <h2>Call to Action</h2>
-                <a href="#">Join Chamber</a>
-            </section>
-            
-            <section class="card largeWeather">
-                <h2>Weather</h2>
-                <p>Forecast details here.</p>
-            </section>
-        </div>
-        <div class="bottom-section">
-            <section class="card business">
-                <h2>Business Spotlights</h2>
-                <h3>Business 1</h3>
-                <ul>
-                    <li><a href="#">Contact Info</a></li>
-                </ul>
-                <h3>Business 2</h3>
-                <ul>
-                    <li><a href="#">Contact Info</a></li>
-                </ul>
-                <h3>Business 3</h3>
-                <ul>
-                    <li><a href="#">Contact Info</a></li>
-                </ul>
-            </section>
-            <section class="card weather">
-                <h2>Weather</h2>
-                <p>Forecast details here.</p>
-            </section>
-        </div>
+        <!-- Main Content with Lazy Loaded Images -->
+        <section class="card">
+            <h2>Local Attractions</h2>
+            <div class="image-gallery">
+                <figure>
+                    <img src="images/riverfront.webp" alt="Riverfront Park" loading="lazy">
+                    <figcaption>Riverfront Park</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/manito.webp" alt="Manito Park" loading="lazy">
+                    <figcaption>Manito Park</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/falls.webp" alt="Spokane Falls" loading="lazy">
+                    <figcaption>Spokane Falls</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/greenbluff.webp" alt="Green Bluff" loading="lazy">
+                    <figcaption>Green Bluff</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/davenport.webp" alt="Davenport Hotel" loading="lazy">
+                    <figcaption>Davenport Hotel</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/centennial.webp" alt="Centennial Trail" loading="lazy">
+                    <figcaption>Centennial Trail</figcaption>
+                </figure>
+            </div>
+        </section>
     </main>
     <footer>
-        <p> WDD 230 Project | Bitner Torres | <a href="tel:+12484345508" class="phone-link">(248) 434-5508</a> | © <span id="currentYear"></span> </p>
+        <p> WDD 230 Project | Bitner Torres | <a href="tel:+12484345508" class="phone-link">(248) 434-5508</a> | © <span
+                id="currentYear"></span> </p>
         <p>Last modified: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/dates.js"></script>
+    <script src="scripts/visits.js"></script>
 </body>
 
 </html>

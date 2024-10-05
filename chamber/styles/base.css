@@ -197,3 +197,46 @@ footer {
 .phone-link {
     text-decoration: none;
 }
+
+/* Discover /*
+
+/* Sidebar Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.upevents{
+    padding-left: 10px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.image-gallery :hover{
+    box-shadow: none;
+}
+
+.image-gallery figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+    border: 1px solid rgba(107, 107, 107, 0.5);
+    margin-top: -7px;
+}
