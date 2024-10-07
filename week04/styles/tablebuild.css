@@ -1,0 +1,79 @@
+:root {
+	--bord: 1px solid #373737;
+}
+
+/* General styling for the table */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Styling the caption */
+  caption {
+    font-weight: bold;
+    margin-top: 10px;
+    caption-side: bottom;
+  }
+  
+  /* Table header */
+  thead th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  /* Zebra striping using nth-child */
+  tbody tr:nth-child(even) {
+    background-color: #bdbdbd;
+    border-left: var(--bord);
+    border-bottom: var(--bord);
+    border-right: var(--bord);
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: white;
+    border-left: var(--bord);
+    border-bottom: var(--bord);
+    border-right: var(--bord);
+  }
+  
+  /* Table cell border */
+  td, th {
+    padding: 12px;
+  }
+  
+  
+  /* Make emoticons larger and more prominent */
+  td {
+    font-size: 1em;
+    border-right: var(--bord);
+  }
+  
+  /* Feature column alignment */
+  td:first-child {
+    text-align: left;
+    font-weight: bold;
+    border-right: var(--bord);
+  }
+  
+  /* Adjust the table width */
+  table {
+    max-width: 500px;
+  }
+  
+  /* Column header row styling */
+  thead tr:nth-child(2) th {
+    background-color: #444;
+    border-right: var(--bord);
+    border-bottom: var(--bord);
+
+  }
+  
+  /* Column header row styling */
+  thead tr:nth-child(2) th:nth-child(1){
+    background-color: rgb(0, 0, 0); 
+  }
