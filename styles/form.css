@@ -68,8 +68,8 @@
 
 #rangevalues {
 	display: flex;
-	margin: 0 0 0 18px;
-	width: 400px;
+	margin: 0 0 0 19px;
+	max-width: var(--mw);
     margin-top: -9px;
 }
 
