@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spokane Chamber of Commerce Site Plan</title>
+    <meta name="description" content="Spokane chamber of comerce WDD230 project">
+    <meta name="author" content="Bitner Torres">
+
+    <meta property="og:title" content="Spokane chamber of comerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://images.pexels.com/photos/27998519/pexels-photo-27998519/free-photo-of-spokane-river.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+    <meta property="og:url" content="https://jigsawsam.github.io/wdd230/chamber/index.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <span class="large">SPOKANE</span>
+            <span class="small">CHAMBER OF COMMERCE</span>
+        </h1>
+        <div><button id="navButton"></button></div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3 class="tc">Apply for Chamber Membership</h3>
+        <hr>
+        <div class="form-container">
+            <form method="get" action="thankyou.html" class="form">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label>First Name: <input type="text" id="fname" name="fname" required></label>
+                    <label>Last Name: <input type="text" id="lname" name="lname" required></label>
+                    <label>Title/Position: <input type="text" id="position" name="position" pattern="[a-zA-Z\s\-]{7,}" title="Please enter at least 7 characters consisting of alphabets, hyphens, and spaces."></label>
+                    <label>Email: <input type="email" id="email" name="email" placeholder="example@gmail.com" required></label>
+                    <label>Phone: <input type="tel" id="phone" name="phone" required></label>
+                </fieldset>
+    
+                <fieldset> 
+                    <legend>Business Information</legend>
+                    <label>Business/Organization's Name: <input type="text" id="nbusiness" name="nbusiness" required></label>
+                    <label for="description">Business/Organization's Description:</label><textarea id="description" name="description"></textarea>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Membership</legend>
+                    <label>Membership Level:
+                        <select name="subject">
+                            <option value="noValue">---Please Select--- &#9662;</option>
+                            <option value="np">Non Profit Membership</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+                </fieldset>
+    
+                <label><input type="hidden" id="timestamp" name="timestamp"></label>
+                <input type="submit" value="Join Our Chamber">
+            </form>
+    
+            <!-- Membership benefits section -->
+            <div class="membership-benefits">
+                <h3>Membership Benefits</h3>
+                <ul>
+                    <li><strong>Non Profit Membership:</strong> No fee, access to free community events and general newsletter.</li>
+                    <li><strong>Bronze Membership:</strong> Event discounts, company listing on directory, access to basic training sessions.</li>
+                    <li><strong>Silver Membership:</strong> Includes Bronze benefits, plus free training sessions, access to special events.</li>
+                    <li><strong>Gold Membership:</strong> Includes Silver benefits, spotlight on homepage, advertising discounts, and premium event access.</li>
+                </ul>
+            </div>
+
+            <div class="submit-container">
+                <input type="submit" form="membershipForm" value="Join Our Chamber">
+            </div>
+
+        </div>
+    </main>
+    
+    <footer>
+        <p> WDD 230 Project | Bitner Torres | <a href="tel:+12484345508" class="phone-link">(248) 434-5508</a> | © <span id="currentYear"></span> </p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dates.js"></script>
+    <script src="scripts/timestamp.js"></script>
+</body>
+
+</html>

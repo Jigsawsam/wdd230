@@ -198,7 +198,7 @@ footer {
     text-decoration: none;
 }
 
-/* Discover /*
+/* Discover */
 
 /* Sidebar Grid Layout */
 .grid-container {
@@ -240,3 +240,115 @@ footer {
     border: 1px solid rgba(107, 107, 107, 0.5);
     margin-top: -7px;
 }
+
+/* Join Form */
+
+/* Form layout */
+:root {
+    --mw: 350px;
+}
+
+.form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #828282;
+    border-radius: 6px;
+    padding: .5rem 2%;
+    max-width: 40rem;
+}
+
+.form legend {
+    color: rgb(20, 0, 196);
+    padding: 0 .5rem;
+    text-align: center;
+}
+
+.form label {
+    display: block;
+    padding-top: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: .9rem;
+    text-align: left;
+}
+
+.form input[type="text"], 
+.form input[type="email"],
+.form input[type="tel"],
+.form select,
+.form textarea {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .76rem;
+    color: #555;
+    width: 100%;
+    max-width: 350px;
+}
+
+.submit-container input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#9c2c13, #0e1e6f);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 50%;
+    margin: -1rem auto 2rem auto;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 5px #212121;
+    appearance: none;
+    display: block;
+}
+
+.submit-container {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.form input[type="submit"] {
+    display: none;
+}
+
+.tc {
+    text-align: center;
+}
+
+.form input:required {
+    border-left: solid 8px red;
+}
+
+.form input:required:valid {
+    border-left: solid 8px green;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.membership-benefits {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-top: -2rem;
+}
+
+.membership-benefits h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #092d51;
+}
+
+.membership-benefits ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.membership-benefits ul li {
+    margin-bottom: 1rem;
+}
+
+.membership-benefits ul strong {
+    color: #9c2c13;
+}
+
