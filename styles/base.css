@@ -228,6 +228,10 @@ body.dark a:visited {
   color: #A9A9A9; 
 }
 
+body.dark figcaption {
+  color: #fff;
+}
+
 /* map */
 iframe {
   display: block;
