@@ -11,7 +11,7 @@ const displayMembers = (companies) => {
     const container = document.querySelector("#members-container");
 
     // Set default class to 'grid' on first load
-    container.classList.add("list");
+    container.classList.add("grid");
 
     companies.forEach(company => {
         // Create a new div to hold the company info
