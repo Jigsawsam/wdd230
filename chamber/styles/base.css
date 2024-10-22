@@ -352,3 +352,96 @@ footer {
     color: #9c2c13;
 }
 
+/* Directory */
+
+/* Grid and List View for Members Directory */
+
+.menu {
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    flex-direction: row; 
+    gap: 0.5rem; 
+    margin: 1rem 0; 
+}
+
+.menu button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-top: 1rem;
+    gap: 1.5rem;
+    padding: 1.1rem;
+    text-align: center;
+    font-size: 10px;
+}
+
+.grid div {
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px #333;
+    padding: 1rem;
+    width: 15rem;
+    height: 15rem;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.grid p {
+    font-size: 10px;
+    margin: auto;
+}
+
+.grid img {
+    height: 25%;
+    max-width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Ensure the list container spans full width */
+.list {
+    font-size: 10px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list p {
+    font-size: 10px;
+}
+
+.list a {
+    margin-left: .5rem;
+    font-size: 10px;
+}
+
+.list div {
+    padding: 2rem; 
+}
+
+.list div:nth-child(odd) {
+    background-color: #6eadcf7e;
+}
+
+.list div:nth-child(even) {
+    background-color: transparent;
+}
+
+
+.list img {
+    display: none;
+}
+

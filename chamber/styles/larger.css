@@ -103,4 +103,35 @@
         display: none;
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 1rem;
+        align-items: center;
+        margin-top: 10px;
+        padding: 3rem;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .grid div {
+        border: 1px solid #000000;
+        box-shadow: 0 0 10px #333;
+        padding: 1rem;
+        width: 20rem;
+        height: 20rem;
+        margin-top: 1.5rem;
+    }
+    
+    .grid p {
+        font-size: 12px;
+        margin: auto;
+    }
+    
+    .grid img {
+        height: 75px;
+        max-width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
 }
