@@ -381,15 +381,15 @@ footer {
     gap: 1.5rem;
     padding: 1.1rem;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .grid div {
     border: 1px solid #000000;
     box-shadow: 0 0 10px #333;
     padding: 1rem;
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
@@ -397,7 +397,7 @@ footer {
 }
 
 .grid p {
-    font-size: 10px;
+    font-size: 13px;
     margin: auto;
 }
 
@@ -410,7 +410,7 @@ footer {
 
 /* Ensure the list container spans full width */
 .list {
-    font-size: 10px;
+    font-size: 15px;
     text-align: left;
     padding: 0;
     margin: 0;
@@ -420,12 +420,12 @@ footer {
 }
 
 .list p {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .list a {
     margin-left: .5rem;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .list div {
