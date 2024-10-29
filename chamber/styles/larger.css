@@ -145,6 +145,12 @@
         margin-top: 1rem;
         margin-bottom: 1.5rem;
     }
+    
+    .ty {
+        font-size: 100%;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
 
     #spotlight {
         display: flex;
