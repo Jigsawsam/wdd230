@@ -139,6 +139,7 @@ main h2 {
     border-top-right-radius: 5px;
     overflow: hidden;
     margin: 0;
+    text-align: center;
 }
 
 p {
@@ -161,18 +162,85 @@ p {
     font-size: 15px;
 }
 
+
+.largeWeather .today-weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    box-shadow: 0 0 10px #0e01ff36;
+    background-color: #00ddff11;
+}
+
+.largeWeather #current-temp {
+    margin: 1rem 0;
+}
+
+.largeWeather #weather-icon {
+    margin: 1rem 0;
+    margin-top: -1rem;
+}
+
+.largeWeather figcaption {
+    margin: 1rem 0;
+    margin-top: -1.5rem;
+    margin-bottom: 9px;
+    font-size: 0.9rem;
+}
+
+
+.largeWeather #forecast div {
+    box-shadow: 0 0 10px #3333331c;
+    text-align: center;
+    margin: .1rem; 
+    padding: .5rem; 
+    height: 8.5rem; 
+}
+
+.largeWeather #forecast p {
+    font-size: 15px;
+    margin: 0.1rem;
+}
+
+.largeWeather #forecast img {
+    height: 2.5rem;
+    max-width: 100%;
+    margin-top: -0.1rem;
+    margin-bottom: -0.5rem;
+}
+
+
 .bottom-section {
     display: flex;
     gap: 7px;
 }
 
 .business {
-    width: 65%;
+    width: 100%;
 }
 
-.weather {
-    width: 40%;
+#spotlight li {
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 0 10px #3333331c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
 
+#spotlight h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#spotlight img {
+    height: 4rem;
+    max-width: 100%;
+}
+
+#spotlight a {
+    font-size: 1rem;
 }
 
 .bottom-section .card {
@@ -443,5 +511,26 @@ footer {
 
 .list img {
     display: none;
+}
+
+
+.banner {
+    background-color: #f9d342;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+    position: absolute;
+    top: 30rem;
+    right: .1px;
+}
+
+.close-banner {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
 }
 

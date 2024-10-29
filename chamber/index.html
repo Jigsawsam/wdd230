@@ -51,38 +51,33 @@
                 <h2>Community Info</h2>
                 <p>Lorem ipsum dolor sit amet.</p>
             </section>
-
+        
             <section class="card action">
                 <h2>Call to Action</h2>
                 <a href="join.html">Join Chamber</a>
             </section>
-            
+        
             <section class="card largeWeather">
                 <h2>Weather</h2>
-                <p>Forecast details here.</p>
+                <div class="today-weather">
+                    <p><span id="current-temp"></span></p>
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+                <div id="forecast"></div>
             </section>
         </div>
         <div class="bottom-section">
             <section class="card business">
                 <h2>Business Spotlights</h2>
-                <h3>Business 1</h3>
-                <ul>
-                    <li><a href="#">Contact Info</a></li>
-                </ul>
-                <h3>Business 2</h3>
-                <ul>
-                    <li><a href="#">Contact Info</a></li>
-                </ul>
-                <h3>Business 3</h3>
-                <ul>
-                    <li><a href="#">Contact Info</a></li>
-                </ul>
-            </section>
-            <section class="card weather">
-                <h2>Weather</h2>
-                <p>Forecast details here.</p>
+                <ul id="spotlight"></ul>
             </section>
         </div>
+        
+        <div class="banner" style="display: none;"></div>
+
     </main>
     <footer>
         <p> WDD 230 Project | Bitner Torres | <a href="tel:+12484345508" class="phone-link">(248) 434-5508</a> | © <span id="currentYear"></span> </p>
@@ -90,6 +85,9 @@
     </footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/dates.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 
 </html>
