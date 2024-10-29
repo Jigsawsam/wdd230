@@ -186,6 +186,7 @@ main.dark h1 {
 .card ul li {
   margin: 10px;
   text-align: left;
+  margin-top: 1rem;
 }
 
 .card ul li a {
