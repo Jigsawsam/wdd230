@@ -162,6 +162,38 @@ p {
     font-size: 15px;
 }
 
+.action div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    margin: 1rem;
+}
+
+.action button {
+    background-color: #0077ff53;
+    margin: 1rem;
+    border-radius: 3rem;
+    font-size: 16px;
+    text-decoration: none;
+    color: #092d51;
+    font-weight: 600; 
+    padding: 0.5rem 1.5rem;
+}
+
+.events-list li {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.events-list p {
+    font-size: 12px;
+}
+
+.events-list a {
+    font-size: 11px;
+    margin-left: 12px;
+}
 
 .largeWeather .today-weather {
     display: flex;
