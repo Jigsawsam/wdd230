@@ -1,62 +1,60 @@
 {
-    "companies": [
-      {
-        "name": "Umi Kitchen and Sushi Bar",
-        "address": "1309 W Summit Pkwy, Spokane, WA 99201",
-        "phone": "(509) 368-9372",
-        "website": "https://www.umispokane.com/",
-        "image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=700,fit=crop,q=95/YKbP3Mk4PJfkpPaz/screenshot-2024-07-12-at-2.18.47a-pm-AR0bz1nagZT3M187.png",
-        "membershipLevel": "Gold"
-      },
-      {
-        "name": "The Milk Bottle",
-        "address": "802 W Garland Ave, Spokane, WA 99205",
-        "phone": "(509) 325-1772",
-        "website": "http://marylous.org/",
-        "image": "https://lirp.cdn-website.com/b9461fd5/dms3rep/multi/opt/logo--282-29-f8ef82a4-220w.png",
-        "membershipLevel": "Gold"
-      },
-      {
-        "name": "Molé Restaurant",
-        "address": "1335 W Summit Pkwy, Spokane, WA 99201",
-        "phone": "(509) 401-8050",
-        "website": "https://molespokane.com/",
-        "image": "https://molespokane.com/wp-content/uploads/2021/10/Red-Horizontal-3.png.webp",
-        "membershipLevel": "Silver"
-      },
-      {
-        "name": "Sharp Shooting Indoor Range & Gun Shop",
-        "address": "1200 N Freya Way, Spokane, WA 99202",
-        "phone": "(509) 535-4444",
-        "website": "http://www.sharpshooting.net/",
-        "image": "https://images.squarespace-cdn.com/content/v1/5f469bf6ba9b2a1ed4140715/1204aae2-1a28-443e-bf81-479de7512bbd/SharpRed.png?format=1500w",
-        "membershipLevel": "Non Profit"
-      },
-      {
-        "name": "Vien Dong Restaurant",
-        "address": "3435 E Trent Ave, Spokane, WA 99202",
-        "phone": "(509) 536-6073",
-        "website": "http://viendongspokane.com/",
-        "image": "https://viendongspokane.com/wp-content/uploads/2020/10/cropped-Vien-Dong-Logo_square.png",
-        "membershipLevel": "Bonze"
-      },
-      {
-        "name": "Spokandy Chocolatier",
-        "address": "1412 W 3rd Ave, Spokane, WA 99201",
-        "phone": "(509) 624-1969",
-        "website": "http://www.spokandy.com/",
-        "image": "https://spokandy.com/cdn/shop/files/spokandy-logo_x200@2x.png?v=1613692453",
-        "membershipLevel": "Gold"
-      },
-      {
-        "name": "Eleven Acres Farm",
-        "address": "9712 10909 E Day Mt Spokane Rd, Mead, WA 99021",
-        "phone": "(509) 238-9473",
-        "website": "http://www.elevenacresfarm.com/",
-        "image": "http://www.elevenacresfarm.com/farm_sign_001.jpg",
-        "membershipLevel": "Non Profit"
-      }
-    ]
-  }
-
-  
+  "companies": [
+    {
+      "name": "Umi Kitchen and Sushi Bar",
+      "address": "1309 W Summit Pkwy, Spokane, WA 99201",
+      "phone": "(509) 368-9372",
+      "website": "https://www.umispokane.com/",
+      "image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=700,fit=crop,q=95/YKbP3Mk4PJfkpPaz/screenshot-2024-07-12-at-2.18.47a-pm-AR0bz1nagZT3M187.png",
+      "membershipLevel": "Gold"
+    },
+    {
+      "name": "The Milk Bottle",
+      "address": "802 W Garland Ave, Spokane, WA 99205",
+      "phone": "(509) 325-1772",
+      "website": "http://marylous.org/",
+      "image": "https://lirp.cdn-website.com/b9461fd5/dms3rep/multi/opt/logo--282-29-f8ef82a4-220w.png",
+      "membershipLevel": "Gold"
+    },
+    {
+      "name": "Molé Restaurant",
+      "address": "1335 W Summit Pkwy, Spokane, WA 99201",
+      "phone": "(509) 401-8050",
+      "website": "https://molespokane.com/",
+      "image": "https://molespokane.com/wp-content/uploads/2021/10/Red-Horizontal-3.png.webp",
+      "membershipLevel": "Silver"
+    },
+    {
+      "name": "Sharp Shooting Indoor Range & Gun Shop",
+      "address": "1200 N Freya Way, Spokane, WA 99202",
+      "phone": "(509) 535-4444",
+      "website": "http://www.sharpshooting.net/",
+      "image": "https://images.squarespace-cdn.com/content/v1/5f469bf6ba9b2a1ed4140715/1204aae2-1a28-443e-bf81-479de7512bbd/SharpRed.png?format=1500w",
+      "membershipLevel": "Non Profit"
+    },
+    {
+      "name": "Vien Dong Restaurant",
+      "address": "3435 E Trent Ave, Spokane, WA 99202",
+      "phone": "(509) 536-6073",
+      "website": "http://viendongspokane.com/",
+      "image": "https://viendongspokane.com/wp-content/uploads/2020/10/cropped-Vien-Dong-Logo_square.png",
+      "membershipLevel": "Bonze"
+    },
+    {
+      "name": "Spokandy Chocolatier",
+      "address": "1412 W 3rd Ave, Spokane, WA 99201",
+      "phone": "(509) 624-1969",
+      "website": "http://www.spokandy.com/",
+      "image": "https://spokandy.com/cdn/shop/files/spokandy-logo_x200@2x.png?v=1613692453",
+      "membershipLevel": "Gold"
+    },
+    {
+      "name": "Eleven Acres Farm",
+      "address": "9712 10909 E Day Mt Spokane Rd, Mead, WA 99021",
+      "phone": "(509) 238-9473",
+      "website": "http://www.elevenacresfarm.com/",
+      "image": "https://lh3.googleusercontent.com/proxy/nQt_BSYIQYmROlGfp8S8S9BonKtpLOhLu3-w8xXmtYap00d4F727eJmfBMrb6O4LJGo3fRtrX1C2438hmSmKuIWJBQ",
+      "membershipLevel": "Non Profit"
+    }
+  ]
+}
