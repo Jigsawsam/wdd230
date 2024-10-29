@@ -39,7 +39,7 @@ h1 {
 
 /* Navigation */
 nav {
-    background-color: #62521c;
+    background-color: #536d86;
 }
 
 #navButton::before {
@@ -283,7 +283,10 @@ p {
 /* Footer */
 footer {
     text-align: center;
-    margin-top: 20px;
+    margin-top: auto;
+    background-color: #b1bae0;
+    padding: 20px;
+
 }
 
 .card ul li a {
@@ -451,6 +454,19 @@ footer {
 .membership-benefits ul strong {
     color: #9c2c13;
 }
+
+.footThankyouForm {
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+ }
+ 
+ .ty {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center; 
+ }
 
 /* Directory */
 

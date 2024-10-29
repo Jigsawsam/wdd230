@@ -1,4 +1,8 @@
 @media only screen and (min-width: 40rem) {
+    
+    h1 {
+        padding-right: 0rem;
+    }
 
     nav ul,
     nav.open ul {
@@ -34,6 +38,7 @@
 
     .hero span{
         font-size: 1.5rem;
+        top: 70%;
     }
 
     .grid-container {

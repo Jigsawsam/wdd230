@@ -1,3 +1,61 @@
-<h1>Thank you for filling out the form!</h1>
-<h2>Your data was collected.</h2>
-<p>You can close this page.</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spokane Chamber of Commerce Site Plan</title>
+    <meta name="description" content="Spokane chamber of comerce WDD230 project">
+    <meta name="author" content="Bitner Torres">
+
+    <meta property="og:title" content="Spokane chamber of comerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://images.pexels.com/photos/27998519/pexels-photo-27998519/free-photo-of-spokane-river.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+    <meta property="og:url" content="https://jigsawsam.github.io/wdd230/chamber/index.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <span class="large">SPOKANE</span>
+            <span class="small">CHAMBER OF COMMERCE</span>
+        </h1>
+        <div><button id="navButton"></button></div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main class="ty">
+
+        <h1>Thank you for filling out the form!</h1>
+        <h3>Your data was collected.</h2>
+        <p>You can close this page.</p>
+
+    </main>
+
+    <footer class="footThankyouForm">
+        <p> WDD 230 Project | Bitner Torres | <a href="tel:+12484345508" class="phone-link">(248) 434-5508</a> | © <span
+                id="currentYear"></span> </p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dates.js"></script>
+    <script src="scripts/timestamp.js"></script>
+</body>
+
+</html>
